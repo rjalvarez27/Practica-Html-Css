@@ -1,0 +1,17 @@
+Actividad: (Recuerda usar las etiquetas semánticas!)
+
+1) Crear copia de pagina principal de Youtube (responsive).
+
+Extras:
+
+1) Haz que tu copia de Youtube al clickear un video, te lleve al mismo video en donde deben aparecer el titulo, descripción, likes, comentarios y videos relacionados.
+
+2) Elige un personaje de tu preferencia, y hazle una pagina web. Deber cumplir con lo siguiente:
+
+- Debe tener un navbar (fijo). El menu con la lista de las secciones (ej: inicio,historia,habilidades, etc..), al dar click debe llevar a la seccion clickeada.
+- En la pagina principal tienen que colocar un fondo (video o imagen). Por delante de este debe ir el nombre del personaje, y una foto del mismo (Este debe realizar algun movimiento epico).
+- Crear una seccion hablando un poco del personaje (historia).
+- Crear una seccion de sus poderes o fortalezas, cada una de estas deben ir en una carta.
+- Debera tener un footer (con informacion del creador de la pagina).
+- La pagina debera tener un glitch al principio.
+- EXTRA: (La pagina debe ser responsive)
