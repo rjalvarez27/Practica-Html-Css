@@ -5,6 +5,7 @@
 	font-family: "Montserrat Alternates", sans-serif;
 	color: white;
 	box-sizing: border-box;
+	
 }
 
 /*Estilos para el Navbar*/
@@ -15,15 +16,17 @@
 	width: 100%;
 	padding: 11px;
 	justify-content: space-between;
-	font-size: 25px;
+	font-size: 20px;
 	background-color: #1f2020;
 	z-index: 2;
+	min-width: 30vw;
+	
 }
 
 /* boton hamburguesa y icono de youtube*/
 .btn-menu {
 	display: flex;
-	align-items: center;
+	align-items: center;	
 }
 
 .btn-menu label:hover {
@@ -34,23 +37,23 @@
 
 .menu {
 	display: flex;
-	position: relative;
+	position: relative;	
 }
 
 /* segunda parte busqueda y micro */
-.search {
-	width: 550px;
-	padding: 9px 20px;
-	padding-right: 5px;
-	border-radius: 20px 0 0 20px;
+.search {	
+	border-radius: 10px 0 0 10px;
 	border: 0.1px solid #545b60;
 	outline: none;
 	font-size: 1rem;
-	background-color: #1f1f1f;
+	background-color: #1f1f1f;	
+	padding-left: 20px;
+	min-width: 25vw;	
 }
 
 ::placeholder {
 	color: #757c82;
+	
 }
 
 .butn {
@@ -131,11 +134,7 @@
 
 /*Fin de Estilos para el nav*/
 
-/*Menù lateral (Pestana)*/
-#btn-menu {
-	display: none;
-}
-
+/*Menù lateral (Pestaña)*/
 .container-menu {
 	display: flex;
 	position: absolute;
@@ -218,11 +217,11 @@
 
 .sidebar {
 	position: fixed;
-	top: 60px;
+	top: 55px;
 	left: 0;
 	z-index: 1;
-	width: 95px;
-	height: 93vh;
+	width: 98px;
+	height: 100%;
 	background: #1f1f1f;
 }
 
@@ -248,7 +247,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	top: 60px;
+	top: 58px;
 	left: 95px;
 	z-index: 1;
 	width: 95%;
@@ -272,21 +271,25 @@
 
 /* Videos */
 
-.videos {
-	position: relative;	
-	
-	top: 90px;
-	left: 95px;
-	width: 93.2vw;
+.videos {	
+	position: relative;		
+	top: 70px;
+	left: 98px;
+	width: 93.9vw;
 	height: 100%;
 	background-color: #1f2020;
 }
 
-
-.conten {		
-	display: inline-table;
-	margin: 20px 30px; 
+.conten {	
+	display: inline-block;		
+	margin: 20px 20px;
     font-size: 13px;
+}
+
+.conten img {
+	width:500px;
+	height: 300px;
+	border-radius: 20px;
 }
 
 .info {
